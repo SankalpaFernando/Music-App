@@ -1,0 +1,66 @@
+.login-ui{
+    height: 100vh;
+    background-image: url('../resources/undraw_Login_re_4vu2.svg');
+    background-size: 100% 100%;
+}
+
+.login-card{
+    width: 60%;
+    margin: 25vh auto;
+    height: 40vh;
+    border-radius: .5rem;
+}
+.login-card > h1{
+    font-size: 3rem !important;
+    color: #00bfa6;
+}
+.login{
+    margin-top: 2rem !important;
+}
+.login-input{
+    width: 80% !important;
+    margin: 1rem auto !important;
+    border-color: #00bfa6 !important;
+}
+.login-btn{
+    margin: .8rem;
+}
+.login-btn:active,.login-btn:hover, .login-btn:focus {
+    border-color: #00bfa6 !important;
+    color: #00bfa6 !important;
+}
+.login-input:active,.login-btn:hover, .login-btn:focus {
+    border-color: #00bfa6 !important;
+    color: #00bfa6 !important;
+}
+.song-card{
+    display: flex;
+    width: 60%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: .4rem;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: 3fr 8fr;
+}
+.song-card>.description{
+    margin:0 2rem;
+}
+.song-card>.description>h1{
+    text-align: left;
+}
+.song-card>.description>.icon-holder>.icon{
+    text-align: left;
+    font-size: 2rem;
+}
+.song-card>.img{
+    height: 20vh;
+    background-image: url('https://i1.sndcdn.com/artworks-000215299776-uk4jh7-t500x500.jpg');
+    background-size: 100% 100%;
+    border-top-left-radius: .4rem;
+    border-bottom-left-radius: .4rem;
+}
+@media(max-width:768px){
+    .login-card{
+        width: 100%;
+    }
+}

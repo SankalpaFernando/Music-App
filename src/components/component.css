@@ -1,0 +1,66 @@
+.side-bar {
+  
+  height: 100vh;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  padding-top: 5vh;
+  
+
+}
+.side-bar-case{
+    background-color: rgb(255, 255, 255);
+    height:60vh;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding-top:8vh;
+}
+.art-work{
+    height: 30vh;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding-top: 2rem;
+    background-size: 100% 100%;
+    margin-bottom: 2rem;
+}
+.ant-progress-text{
+    display: none !important;
+}
+.ant-progress-line {
+    margin-top: .1rem !important;
+    width: 90% !important;
+    margin-bottom: 1rem !important;
+    
+}
+.side-bar-case>.icon-holder>.icon{
+    font-size: 2rem !important;
+    margin: 1rem !important;
+}
+.nav-case{
+    height:5vh;
+    margin: 1.2rem;
+    margin-bottom: 15vh;
+    display: flex;
+    gap: 1rem;
+    
+    flex-direction: row-reverse;
+}
+.nav-icon{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 11%;
+    padding:.5rem;
+    border-radius: 50%;
+}
+.nav-icon:hover{
+    color: #00bfa6;
+    cursor: pointer;
+}
+.nav-icon  .icon{
+    margin-top: .2rem;
+    font-size: 1.5rem;
+}
+.flex{
+    display: flex;
+}
